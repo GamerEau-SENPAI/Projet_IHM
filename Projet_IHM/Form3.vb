@@ -12,10 +12,17 @@
 
     Private Sub Form_jeu_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         jeux.duree = 100
-
+        Dim changerLigne As Integer = 1
         lbl_temps.Text = jeux.duree
-        For i As Integer = 0 To pnl_jeu.Controls.Count - 1
-
+        For k As Integer = 1 To 25 - 5 Step 5
+            For i As Integer = 0 To 5 - 1
+                Dim temp As New PictureBox()
+                temp.Height = 150
+                temp.Image = My.Resources.BackCard
+                temp.Left = 100 * i
+                temp.Top = 30 * k
+                pnl_jeu.Controls.Add(temp)
+            Next
         Next
     End Sub
 

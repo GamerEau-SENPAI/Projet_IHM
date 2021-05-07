@@ -141,5 +141,26 @@
   <ItemGroup>
     <None Include="memorylogo.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="Images\memorylogo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Card2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Card3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Card4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\BackCard.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Card0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Card1.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>
